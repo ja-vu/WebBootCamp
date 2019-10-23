@@ -16,10 +16,10 @@ app.get("/speak/:animal", function(req,res){
         goldfish: "..."
     }
     
-    var animal = req.params.animal;
+    var animal = req.params.animal.toLowerCase();
     var sound = sounds[animal]
     
-    res.send("The " + animal + " says " + sound)
+    res.send("The " + animal + " says '" + sound + "'")
 
 });
 
