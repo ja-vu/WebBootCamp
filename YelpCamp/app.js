@@ -6,12 +6,12 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.set("view engine","ejs")
 
 var campgrounds = [
-    {name:"Salmon Creek", image:"https://source.unsplash.com/8f_VQ3EFbTg"},
+    {name:"Salmon Creek", image:"https://images.unsplash.com/photo-1487730116645-74489c95b41b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"},
     {name:"Granite Hill", image:"https://source.unsplash.com/eDgUyGu93Yw"},
     {name:"Mountain Goat's Rest", image:"https://source.unsplash.com/pSaEMIiUO84"},
-    {name:"Salmon Creek", image:"https://source.unsplash.com/8f_VQ3EFbTg"},
-    {name:"Granite Hill", image:"https://source.unsplash.com/eDgUyGu93Yw"},
-    {name:"Mountain Goat's Rest", image:"https://source.unsplash.com/pSaEMIiUO84"}
+    {name:"Sandy Cheeks", image:"https://images.unsplash.com/photo-1530541930197-ff16ac917b0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"},
+    {name:"Hilly Taggins", image:"https://images.unsplash.com/photo-1525811902-f2342640856e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"},
+    {name:"Tahiti Replica", image:"https://images.unsplash.com/photo-1466220549276-aef9ce186540?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"}
 ];
 
 app.get("/", function(req,res){
