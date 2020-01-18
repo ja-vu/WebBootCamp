@@ -13,6 +13,27 @@
 
 MEAN Stack: Mongo-Express-Angular-Node
 
+
+# Our First Mongo Commands
+* mongod
+* mongo
+* help
+* show dbs
+* use
+* find
+* insert
+* update
+* remove
+
+CRUD = Create, Read, Update, Destroy/Delete
+
+
+# Mongoose
+* What is Mongoose?
+* Why are we using it?
+* Interact with a Mongo Database using Mongoose
+
+-------------------------------------------------------------
 db.posts.insert({
     title:'Post One',
     body:'Body of post one',
