@@ -33,6 +33,11 @@ CRUD = Create, Read, Update, Destroy/Delete
 * Why are we using it?
 * Interact with a Mongo Database using Mongoose
 
+# Show Page
+* Review the RESTFul routes we've seen so far
+* Add description to our campground model
+* Show db.collection.drop()
+* Add a show route/template
 -------------------------------------------------------------
 db.posts.insert({
     title:'Post One',
